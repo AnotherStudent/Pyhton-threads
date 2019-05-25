@@ -1,9 +1,9 @@
 # Pyhton-threads
 
-Использование потоков в python, тест производительности вычислений с потоками.
+Использование потоков в python, тест производительности вычислений с потоками.  
 Как видно из этого теста, из-за реализации потоков в Python, использование потоков практически не увеличивают производительность.
 
-'''
+```
 mat size = (10, 10)
  numpy matrix multiply duration: 0:00:00.000167
 simple matrix multiply duration: 0:00:00.001766
@@ -34,4 +34,4 @@ mat size = (450, 450)
 simple matrix multiply duration: 0:00:20.677068
 thread matrix multiply duration: 0:00:18.869476
 *** Thread-driven multuply is winner! ***
-'''
+```
