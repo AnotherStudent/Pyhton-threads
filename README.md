@@ -9,39 +9,44 @@ Delphi:
 ```
 mat size = (10, 10)
 simple matrix multiply duration: 0ms
-simple matrix multiply duration: 3ms
+thread matrix multiply duration: 21ms
 
 mat size = (50, 50)
 simple matrix multiply duration: 0ms
-simple matrix multiply duration: 8ms
+thread matrix multiply duration: 8ms
 
 mat size = (100, 100)
 simple matrix multiply duration: 3ms
-simple matrix multiply duration: 25ms
+thread matrix multiply duration: 24ms
 
 mat size = (200, 200)
-simple matrix multiply duration: 32ms
-simple matrix multiply duration: 37ms
+simple matrix multiply duration: 33ms
+thread matrix multiply duration: 43ms
 
 mat size = (400, 400)
-simple matrix multiply duration: 246ms
-simple matrix multiply duration: 149ms
+simple matrix multiply duration: 356ms
+thread matrix multiply duration: 161ms
+*** Thread-driven multuply is winner! ***
 
 mat size = (450, 450)
-simple matrix multiply duration: 329ms
-simple matrix multiply duration: 195ms
+simple matrix multiply duration: 389ms
+thread matrix multiply duration: 195ms
+*** Thread-driven multuply is winner! ***
 
 mat size = (600, 600)
-simple matrix multiply duration: 943ms
-simple matrix multiply duration: 491ms
+simple matrix multiply duration: 813ms
+thread matrix multiply duration: 452ms
+*** Thread-driven multuply is winner! ***
 
 mat size = (800, 800)
-simple matrix multiply duration: 2619ms
-simple matrix multiply duration: 1366ms
+simple matrix multiply duration: 2868ms
+thread matrix multiply duration: 1322ms
+*** Thread-driven multuply is winner! ***
 
 mat size = (1500, 1500)
-simple matrix multiply duration: 65841ms
-simple matrix multiply duration: 30089ms
+simple matrix multiply duration: 55258ms
+thread matrix multiply duration: 29481ms
+*** Thread-driven multuply is winner! ***
 ```
 
 Pyhton:  
