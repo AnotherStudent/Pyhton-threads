@@ -87,3 +87,6 @@ mat size = (600, 600)
 simple matrix multiply duration: 0:00:43.029158
 thread matrix multiply duration: 0:01:02.638168
 ```
+
+# Сравнительные графики:
+![Delphi](cfx_delphi.png)![Python](cfx_python.png)
