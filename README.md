@@ -89,4 +89,5 @@ thread matrix multiply duration: 0:01:02.638168
 ```
 
 # Сравнительные графики:
+## Меньшее затраченное время - лучше
 ![Delphi](cfx_delphi.png)![Python](cfx_python.png)
