@@ -52,33 +52,38 @@ thread matrix multiply duration: 29481ms
 Pyhton:  
 ```
 mat size = (10, 10)
- numpy matrix multiply duration: 0:00:00.000167
-simple matrix multiply duration: 0:00:00.001766
-thread matrix multiply duration: 0:00:00.004409
+ numpy matrix multiply duration: 0:00:00.000075
+simple matrix multiply duration: 0:00:00.000250
+thread matrix multiply duration: 0:00:00.001438
 
 mat size = (50, 50)
- numpy matrix multiply duration: 0:00:00.000713
-simple matrix multiply duration: 0:00:00.022221
-thread matrix multiply duration: 0:00:00.027154
+ numpy matrix multiply duration: 0:00:00.000714
+simple matrix multiply duration: 0:00:00.021228
+thread matrix multiply duration: 0:00:00.028995
 
 mat size = (100, 100)
- numpy matrix multiply duration: 0:00:00.003517
-simple matrix multiply duration: 0:00:00.173255
-thread matrix multiply duration: 0:00:00.198097
+ numpy matrix multiply duration: 0:00:00.003239
+simple matrix multiply duration: 0:00:00.166963
+thread matrix multiply duration: 0:00:00.181819
 
 mat size = (200, 200)
- numpy matrix multiply duration: 0:00:00.018737
-simple matrix multiply duration: 0:00:01.624033
-thread matrix multiply duration: 0:00:01.908466
+ numpy matrix multiply duration: 0:00:00.015103
+simple matrix multiply duration: 0:00:01.303002
+thread matrix multiply duration: 0:00:01.366056
 
 mat size = (400, 400)
- numpy matrix multiply duration: 0:00:00.117083
-simple matrix multiply duration: 0:00:15.362252
-thread matrix multiply duration: 0:00:15.642354
+ numpy matrix multiply duration: 0:00:00.097763
+simple matrix multiply duration: 0:00:11.874073
+thread matrix multiply duration: 0:00:12.092625
 
 mat size = (450, 450)
  numpy matrix multiply duration: 0:00:00.141888
 simple matrix multiply duration: 0:00:20.677068
 thread matrix multiply duration: 0:00:18.869476
 *** Thread-driven multuply is winner! ***
+
+mat size = (600, 600)
+ numpy matrix multiply duration: 0:00:00.292478
+simple matrix multiply duration: 0:00:43.029158
+thread matrix multiply duration: 0:01:02.638168
 ```
