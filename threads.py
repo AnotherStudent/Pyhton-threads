@@ -77,7 +77,7 @@ def threadMul(matA, matB):
         
     return res
 
-test_n = [10, 50, 100, 200, 400, 450]
+test_n = [10, 50, 100, 200, 400, 450, 600]
 
 for i in test_n:
     print("\nmat size = (" + str(i) + ", " + str(i) + ")")
@@ -111,5 +111,3 @@ for i in test_n:
             assert(matRes1[y][x] == matRes2[y][x])
             assert(matRes1[y][x] == matRes3[y][x])
     
-    
-
