@@ -79,7 +79,7 @@ thread matrix multiply duration: 0:00:12.092625
 mat size = (450, 450)
  numpy matrix multiply duration: 0:00:00.141888
 simple matrix multiply duration: 0:00:20.677068
-thread matrix multiply duration: 0:00:18.869476
+thread matrix multiply duration: 0:00:19.869476
 *** Thread-driven multuply is winner! ***
 
 mat size = (600, 600)
